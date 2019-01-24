@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.image-size {
+  width: 4em;
+}
+
+.table-header > th {
+  font-size: larger !important;
+  color: black !important;
+}
+
+.filter-input {
+  margin-left: 1em !important;
+  margin-right: 2em !important;
+}
+.container {
+  margin-left: 6em !important;
+  margin-bottom: 2em !important
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
